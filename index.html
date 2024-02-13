@@ -1,7 +1,11 @@
 <!DOCTYPE html>
-<- lang="eng">
-  <!-- dsfjhsd  -->
-
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="style.css" rel="stylesheet"/>
+  <title>Webpage</title>
+</head>
   <body>
     <!-- 
     <h1>The basic language of the web</h1>
@@ -21,7 +25,7 @@
       <header>
         <h2>The basic language of the web: HTML</h2>
         <img src="img/laura-jones.jpg" alt="Author Image" width="50" height="50" />
-        <p>Posted by <strong>Laura Jones</strong> on Monday, June
+        <p id="author"> Posted by <strong>Laura Jones</strong> on Monday, June
           21st 2027</p>
       </header>
       <img src="img/post-img.jpg" alt="HTML code on a screen" width="500" height="200" />
@@ -48,7 +52,7 @@
         paragraphs, links, headings, images, video, etc. Web browsers understand
         HTML and render HTML code as websites.
       </p>
-      In HTML, each element is made up of 3 parts:</p>
+      <p>In HTML, each element is made up of 3 parts:</p>
       <ol>
         <li>The opening tag</li>
         <li>The closing tag</li>
@@ -71,27 +75,29 @@
       <P>
     </article>
     <aside> <!-- This element is used to compliment an additional information being used in the main body -->
-      <h3>Related Posts</h3>
+      <h4>Related Posts</h4>
       </P>
-      <ul>
+      <ul class="remove-bullets">
         <li>
           <img src="img/related-1.jpg" alt="Web development image" width="75" height="75" />
           <a href="blog-web development.html" target="_blank">How to Learn Web Development</a>
-          <p>By Jonas Schmedtmann</p>
+          <p class="related-author">By Jonas Schmedtmann</p>
         </li>
         <li>
           <img src="img/related-2.jpg" alt="CSS process image" width="75" height="75" />
           <a href="blog-CSS process.html" target="_blank">The unknown Power of CSS</a>
-          <p>By Jim Dillon</p>
+          <p class="related-author">By Jim Dillon</p>
         </li>
         <li>
           <img src="img/related-3.jpg" alt="JavaScipt image" width="75" height="75" />
           <a href="blog-JavaScript.html" target="_blank">Why JavaScript is Awesome</a>
-          <p>By Matilda</p>
+          <p class="related-author">By Matilda</p>
         </li>
       </ul>
     </aside> 
-    <footer> Copyright &copy; 2027 by The Code Magazine</footer>
+    <footer> 
+      <p id="copyright ">Copyright &copy; 2027 by The Code Magazine</p>
+    </footer>
   </body>
 
   </html>
