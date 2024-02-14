@@ -1,3 +1,12 @@
+/* * {
+  border-top: 10px solid #1098ad;
+} */
+
+body {
+  /* color: red; */
+  font-family: sans-serif;
+  border-top: 10px solid #1098ad;
+}
 h1,
 h2,
 h3,
