@@ -86,3 +86,19 @@ a:active {
   background-color: black;
   font-style: italic;
 }
+/* Resolving conflicts */
+#copyright {
+  color: red;
+}
+
+.copyright {
+  color: brown;
+}
+
+.text {
+  color: yellow;
+}
+
+footer p {
+  color: goldenrod !important; /* However, this is not recommended */
+}
