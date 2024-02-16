@@ -1,0 +1,30 @@
+.heading1 {
+  font-size: 25px;
+}
+* {
+  font-family: sans-serif;
+}
+h1 p {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: rgb(228, 227, 227);
+}
+
+.border {
+  border: 5px solid black;
+}
+
+.online {
+  text-transform: uppercase;
+  color: rgb(83, 82, 82);
+}
+
+a:link {
+  color: #0d0d0e;
+}
+
+a:hover {
+  /* color: yellowgreen;
+  font-weight: lighter; */
+  text-decoration: none;
+}
