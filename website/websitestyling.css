@@ -4,12 +4,17 @@
 * {
   font-family: sans-serif;
 }
-h1 p {
+
+h1 {
   text-transform: uppercase;
   text-align: center;
   background-color: rgb(228, 227, 227);
 }
 
+h2 {
+  font-size: 16px;
+  text-transform: uppercase;
+}
 .border {
   border: 5px solid black;
 }
@@ -27,4 +32,16 @@ a:hover {
   /* color: yellowgreen;
   font-weight: lighter; */
   text-decoration: none;
+}
+button {
+  text-transform: uppercase;
+  font-size: 20px;
+  background-color: #000000;
+  color: white;
+  border: 0px;
+  margin: 0%;
+}
+button:hover {
+  color: black;
+  background-color: white;
 }
