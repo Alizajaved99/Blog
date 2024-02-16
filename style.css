@@ -96,6 +96,7 @@ li:last-child {
   padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 60px;
+  height: 80px;
 }
 aside {
   border-top: 5px solid #1098ad;
@@ -104,6 +105,17 @@ aside {
   padding: 50px 0px;
   /* padding-top: 50px;
   padding-bottom: 50px; */
+  width: 500px;
+}
+.container {
+  width: 800px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+}
+.post-img {
+  width: 100%;
+  height: auto;
 }
 /* li:first-child {
   font-weight: bold;
@@ -145,5 +157,5 @@ a:active {
 }
 
 footer p {
-  color: goldenrod !important; /* However, this is not recommended */
+  color: goldenrod !important; /* However, this is not recommended and is not considered a good practice.*/
 }
