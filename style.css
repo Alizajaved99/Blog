@@ -159,3 +159,11 @@ a:active {
 footer p {
   color: goldenrod !important; /* However, this is not recommended and is not considered a good practice.*/
 }
+nav a:link {
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+nav a:link:last-child {
+  margin-right: 0%;
+}
