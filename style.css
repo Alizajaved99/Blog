@@ -38,6 +38,7 @@ h1 {
 h2 {
   font-size: 40px;
   margin-bottom: 30px;
+  position: relative;
 }
 h3 {
   font-size: 30px;
@@ -159,7 +160,28 @@ a:active {
 .text {
   color: yellow;
 }
-
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+/* p::first-line {
+  color: red;
+} */
+h2::after {
+  content: "TOP";
+  color: #444;
+  background-color: #ffe70e;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -10px;
+  right: -25px;
+}
++ p::first-line {
+  /* color: red; */
+}
 footer p {
   color: goldenrod !important; /* However, this is not recommended and is not considered a good practice.*/
 }
