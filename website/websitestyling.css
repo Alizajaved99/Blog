@@ -4,6 +4,28 @@
 }
 h1 p {
   padding: 20px;
+  content: SALE;
+}
+.sale {
+  color: white;
+  background-color: red;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  /* width: 58px;
+  height: 30px; */
+  padding: 7px 15px;
+  display: inline-block;
+  position: absolute;
+  top: -17px;
+  left: -38px;
+}
+div {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+article {
+  position: relative;
 }
 .heading1 {
   font-size: 25px;
@@ -73,6 +95,7 @@ button {
 button:hover {
   color: black;
   background-color: white;
+  cursor: pointer;
 }
 .bullet-remove {
   list-style: square;
