@@ -20,6 +20,33 @@ h1 p {
   top: -17px;
   left: -38px;
 }
+.colors {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 10px;
+  letter-spacing: 10px;
+}
+.color-black {
+  background-color: #000000;
+}
+.color-blue {
+  background-color: aqua;
+}
+.color-red {
+  background-color: red;
+}
+.color-green {
+  background-color: green;
+}
+.color-yellow {
+  background-color: yellow;
+}
+.color-orange {
+  background-color: rgb(160, 78, 1);
+}
 div {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -35,7 +62,7 @@ article {
 }
 article a {
   display: inline-block;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 .space {
   margin-bottom: 15px;
