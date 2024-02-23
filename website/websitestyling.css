@@ -4,7 +4,6 @@
 }
 h1 p {
   padding: 20px;
-  content: SALE;
 }
 .sale {
   color: white;
@@ -18,7 +17,7 @@ h1 p {
   display: inline-block;
   position: absolute;
   top: -17px;
-  left: -38px;
+  left: -36px;
 }
 .colors {
   width: 25px;
@@ -26,7 +25,7 @@ h1 p {
   display: inline-block;
   margin-top: 0;
   margin-bottom: 0;
-  margin-right: 10px;
+  margin-right: 5px;
   letter-spacing: 10px;
 }
 .color-black {
@@ -47,10 +46,7 @@ h1 p {
 .color-orange {
   background-color: rgb(160, 78, 1);
 }
-div {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
+
 article {
   position: relative;
 }
@@ -58,7 +54,6 @@ article {
   font-size: 25px;
   display: inline-block;
   /* margin-top: 20px;  */
-  margin-bottom: 5px;
 }
 article a {
   display: inline-block;
@@ -80,10 +75,11 @@ h1 {
 h2 {
   font-size: 16px;
   text-transform: uppercase;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 .border {
   border: 5px solid black;
+  position: relative;
 }
 .resize {
   width: 250px;
@@ -93,7 +89,7 @@ h2 {
   color: rgb(83, 82, 82);
   font-weight: bold;
   font-size: 12px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 a:link {
@@ -104,8 +100,15 @@ a:hover {
   text-decoration: none;
 }
 li {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   margin-left: 25px;
+}
+aside {
+  width: 290px;
+  margin-right: 10px;
+}
+.cont-1 {
+  width: 290px;
 }
 
 button {
@@ -128,6 +131,22 @@ button:hover {
   list-style: square;
 }
 .all-elements {
-  width: 825px;
-  margin: 0 auto;
+  width: 830px;
+  margin: 50px auto;
+  flex: 1;
+}
+.color-rel {
+  margin-top: 30px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.related {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  gap: 30px;
 }
